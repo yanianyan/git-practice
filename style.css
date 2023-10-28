@@ -3,28 +3,39 @@ nav{
     position: sticky;
     overflow: auto;
     margin: -10px;
+    margin-bottom: 10px;
     
     
 }
 nav ul{
     display: flex;
     justify-content: space-evenly;
+    
+    
+    
 }
 nav ul li{
     list-style-type: none;
-    margin: 20px;
+    margin: 10px;
+   
 }
 nav li a{
     text-decoration: none;
     font-size: 2em;
     color: rgb(255, 255, 255);
     font-family: monospace;
+    
 }
 nav li a:hover{
-    color: rgb(0, 0, 0);
+    color: black;
     text-shadow: 5px 5px rgb(161, 114, 114);
     transition-delay: .2s;
+  
 }
 body{
     background-color: peachpuff;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em  ;
 }
